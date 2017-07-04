@@ -1,0 +1,107 @@
+html {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    width: 100%
+}
+
+.pizza {
+    width: 100vh;
+    height: 100vh;
+}
+
+.crust {
+    box-sizing: border-box;
+    position: relative;
+    background: #e6bf70;
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    border: 25px solid #e0b152;
+    border-radius: 500px;
+    display: flex;
+}
+
+.cheese {
+    height: 92%;
+    width: 92%;
+    margin: auto;
+    border-radius: inherit;
+    background: #fff100;
+}
+
+.pepperoni {
+    width: 20%;
+    background: #fd3400;
+    height: 20%;
+    border-radius: 200px;
+    position: absolute;
+}
+
+.mushroom {
+    position: absolute;
+    width: 10%;
+    height: 11%;
+    border-radius: 12px;
+    background: #d6d6d6;
+}
+
+.mushroom:before {
+    content: "";
+    width: 150%;
+    left: -25%;
+    height: 70%;
+    border-radius: 50px;
+    top: -15px;
+    position: absolute;
+    background: inherit;
+}
+
+/* Topping positions */
+
+.topping-1 {
+    left: 16%;
+    top: 35%;
+}
+
+.topping-2 {
+    left: 70%;
+    top: 45%;
+}
+
+.topping-3 {
+    left: 30%;
+    top: 70%;
+}
+
+.topping-4 {
+    left: 50%;
+    top: 15%;
+}
+
+.topping-5 {
+    left: 45%;
+    top: 50%;
+    transform: rotateZ(30deg);
+}
+
+.topping-6 {
+    left: 75%;
+    top: 30%;
+    transform: rotateZ(160deg);
+}
+
+.topping-7 {
+    left: 25%;
+    top: 66%;
+    transform: rotateZ(235deg);
+}
+
+.topping-8 {
+    left: 25%;
+    top: 15%;
+    transform: rotateZ(105deg);
+}
