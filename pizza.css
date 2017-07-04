@@ -45,6 +45,26 @@ body {
     position: absolute;
 }
 
+.pepperoni:before {
+    content: "\2022  \2022";
+    font-size: 400%;
+    transform: rotatez(60deg);
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    color: #ff7070;
+}
+
+.pepperoni:after {
+    content: "\2022";
+    font-size: 400%;
+    transform: rotatez(140deg);
+    position: absolute;
+    left: 58%;
+    top: -8%;
+    color: #ff7070;
+}
+
 .mushroom {
     position: absolute;
     width: 10%;
@@ -69,21 +89,25 @@ body {
 .topping-1 {
     left: 16%;
     top: 35%;
+    transform: rotateZ(15deg);
 }
 
 .topping-2 {
     left: 70%;
     top: 45%;
+    transform: rotateZ(235deg);
 }
 
 .topping-3 {
     left: 30%;
     top: 70%;
+    transform: rotateZ(160deg);
 }
 
 .topping-4 {
     left: 50%;
     top: 15%;
+    transform: rotateZ(30deg);
 }
 
 .topping-5 {
