@@ -10,9 +10,13 @@ body {
 .pizza {
     width: 100vh;
     height: 100vh;
+    margin: auto;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
 .crust {
+    margin: auto;
     box-sizing: border-box;
     position: relative;
     background: #e6bf70;
