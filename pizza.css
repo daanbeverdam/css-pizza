@@ -30,8 +30,8 @@ body {
 }
 
 .cheese {
-    height: 92%;
-    width: 92%;
+    height: 95%;
+    width: 95%;
     margin: auto;
     border-radius: inherit;
     background: #fff100;
@@ -39,7 +39,7 @@ body {
 
 .pepperoni {
     width: 20%;
-    background: #fd3400;
+    background: linear-gradient(#fd3400,#a50000);
     height: 20%;
     border-radius: 200px;
     position: absolute;
@@ -51,7 +51,7 @@ body {
     transform: rotatez(60deg);
     position: absolute;
     left: 5%;
-    top: 15%;
+    top: 25%;
     color: #ff7070;
 }
 
@@ -61,7 +61,7 @@ body {
     transform: rotatez(140deg);
     position: absolute;
     left: 58%;
-    top: -8%;
+    top: -5%;
     color: #ff7070;
 }
 
@@ -81,7 +81,23 @@ body {
     border-radius: 50px;
     top: -15px;
     position: absolute;
-    background: inherit;
+    background: linear-gradient(#d6d6d6,#b5b5b5);
+}
+
+.olive {
+    width: 2%;
+    height: 3%;
+    border: 18px solid black;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.oregano {
+    background: linear-gradient(green,#00d200);
+    position: absolute;
+    width: 8%;
+    height: 2%;
+    border-radius: 10px;
 }
 
 /* Topping positions */
@@ -132,4 +148,70 @@ body {
     left: 25%;
     top: 15%;
     transform: rotateZ(105deg);
+}
+
+.topping-9 {
+    left: 60%;
+    top: 65%;
+    transform: rotateZ(310deg);
+}
+
+.topping-10 {
+    left: 15%;
+    top: 30%;
+    transform: rotateZ(105deg);
+}
+
+.topping-11 {
+    left: 60%;
+    top: 30%;
+    transform: rotateZ(20deg);
+}
+
+.topping-12 {
+    left: 40%;
+    top: 50%;
+    transform: rotateZ(110deg);
+}
+
+.topping-13 {
+    left: 12%;
+    top: 50%;
+    transform: rotateZ(330deg);
+}
+
+.topping-14 {
+    left: 40%;
+    top: 75%;
+    transform: rotateZ(230deg);
+}
+
+.topping-15 {
+    left: 70%;
+    top: 50%;
+    transform: rotateZ(160deg);
+}
+
+.topping-16 {
+    left: 85%;
+    top: 30%;
+    transform: rotateZ(260deg);
+}
+
+.topping-17 {
+    left: 40%;
+    top: 60%;
+    transform: rotateZ(30deg);
+}
+
+.topping-18 {
+    left: 37%;
+    top: 30%;
+    transform: rotateZ(310deg);
+}
+
+.topping-19 {
+    left: 55%;
+    top: 85%;
+    transform: rotateZ(120deg);
 }
